@@ -19,10 +19,10 @@ const Slider = () => {
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background Slides */}
       <div className="absolute inset-0">
-        <img className="w-full absolute h-full object-cover z-10 top-0 left-0" id="image1" src="download.jpg" alt="slide1"/>
-        <img className="w-full absolute h-full object-cover z-20 top-0 left-0" id="image2" src="download1.jpg" alt="slide2"/>
-        <img className="w-full absolute h-full object-cover z-30 top-0 left-0" id="image3" src="download2.jpg" alt="slide3"/>
-        <img className="w-full absolute h-full object-cover z-40 top-0 left-0" id="image4" src="download3.jpg" alt="slide4"/>
+        <img className="w-full absolute h-full object-cover z-10 top-0 left-0" id="image1" src="/photo/download.jpg" alt="slide1"/>
+        <img className="w-full absolute h-full object-cover z-20 top-0 left-0" id="image2" src="/photo/download1.jpg" alt="slide2"/>
+        <img className="w-full absolute h-full object-cover z-30 top-0 left-0" id="image3" src="/photo/download2.jpg" alt="slide3"/>
+        <img className="w-full absolute h-full object-cover z-40 top-0 left-0" id="image4" src="/photo/download3.avif" alt="slide4"/>
       </div>
 
       {/* Dark Overlay */}
@@ -54,7 +54,7 @@ const Slider = () => {
 
       {/* Product Float Image */}
       <div className="absolute right-4 md:right-20 bottom-10 md:bottom-auto md:top-1/2 md:-translate-y-1/2 z-50 w-56 md:w-[420px] rounded-3xl overflow-hidden shadow-[0_0_60px_rgba(152,87,241,0.3)]">
-        <img src="download.avif" alt="featured" className="w-full object-cover"/>
+        <img src="/photo/download.avif" alt="featured" className="w-full object-cover"/>
       </div>
 
       {/* Bottom fade */}
