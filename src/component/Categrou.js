@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const categories = [
-  { label: "Consoles", img: "download1.avif", value: "Console", color: "from-purple-600" },
-  { label: "Accessories", img: "download2.avif", value: "Accessories", color: "from-blue-600" },
-  { label: "Controllers", img: "download3.avif", value: "Controller", color: "from-pink-600" },
+  { label: "Consoles", img: "/photo/download1.avif", value: "Console", color: "from-purple-600" },
+  { label: "Accessories", img: "/photo/download2.avif", value: "Accessories", color: "from-blue-600" },
+  { label: "Controllers", img: "/photo/download3.avif", value: "Controller", color: "from-pink-600" },
 ];
 
 const Categrou = () => {

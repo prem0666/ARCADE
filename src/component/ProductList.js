@@ -9,7 +9,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 89,
     category: "Keyboard",
     rating: 4.6,
-    img: "download2.avif",
+    img: "/photo/download2.avif",
     description: "Blue switch + RGB spectrum keys",
   },
   {
@@ -18,7 +18,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 49,
     category: "Mouse",
     rating: 4.4,
-    img: "mouse1.avif",
+    img: "/photo/mouse1.avif",
     description: "Adjustable DPI up to 16000",
   },
   {
@@ -27,7 +27,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 69,
     category: "Headset",
     rating: 4.5,
-    img: "headphone1.avif",
+    img: "/photo/headphone1.avif",
     description: "7.1 surround sound ",
   },
   {
@@ -36,7 +36,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 199,
     category: "Monitor",
     rating: 4.7,
-    img: "moniter1.jpg",
+    img: "/photo/moniter1.jpg",
     description: "24-inch FHD 165Hz IPS display",
   },
   {
@@ -45,7 +45,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 229,
     category: "Chair",
     rating: 4.3,
-    img: "chair1.avif",
+    img: "/photo/chair1.avif",
     description: "Ergonomic build + RGB edges",
   },
   {
@@ -54,7 +54,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 499,
     category: "Console",
     rating: 4.9,
-    img: "console1.avif",
+    img: "/photo/console1.avif",
     description: "4K gaming + next-gen SSD loading",
   },
   {
@@ -63,7 +63,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 499,
     category: "Console",
     rating: 4.8,
-    img: "console1.avif",
+    img: "/photo/console1.avif",
     description: "True 4K 120FPS gaming console",
   },
   {
@@ -72,7 +72,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 299,
     category: "Console",
     rating: 4.7,
-    img: "Nintendo.jpg",
+    img: "/photo/Nintendo.jpg",
     description: "Portable hybrid gaming console",
   },
   {
@@ -81,7 +81,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 159,
     category: "Desk",
     rating: 4.5,
-    img: "Desk.avif",
+    img: "/photo/Desk.avif",
     description: "Carbon fiber top + RGB edges",
   },
   {
@@ -90,7 +90,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 129,
     category: "Streaming",
     rating: 4.6,
-    img: "CaptureCard.jpg",
+    img: "/photo/CaptureCard.jpg",
     description: "4K30 HDR capture for streaming",
   },
 
@@ -101,7 +101,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 349,
     category: "VR",
     rating: 4.4,
-    img: "headphone2.avif",
+    img: "/photo/headphone2.avif",
     description: "Immersive VR experience",
   },
   {
@@ -110,7 +110,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 29,
     category: "Accessories",
     rating: 4.7,
-    img: "mouse1.avif",
+    img: "/photo/mouse1.avif",
     description: "Anti-slip + RGB strip lighting",
   },
   {
@@ -119,7 +119,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 399,
     category: "GPU",
     rating: 4.8,
-    img: "GPU.jpg",
+    img: "/photo/GPU.jpg",
     description: "8GB GDDR6 + DLSS 3",
   },
   {
@@ -128,7 +128,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 599,
     category: "GPU",
     rating: 4.9,
-    img: "GPU.jpg",
+    img: "/photo/GPU.jpg",
     description: "12GB GDDR6X + Ray tracing",
   },
   {
@@ -137,7 +137,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 289,
     category: "CPU",
     rating: 4.9,
-    img: "chip.jpg",
+    img: "/photo/chip.jpg",
     description: "8 core gaming CPU",
   },
   {
@@ -146,7 +146,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 320,
     category: "CPU",
     rating: 4.8,
-    img: "chip.jpg",
+    img: "/photo/chip.jpg",
     description: "High-end gaming processor",
   },
   {
@@ -155,7 +155,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 79,
     category: "RAM",
     rating: 4.7,
-    img: "ram.jpg",
+    img: "/photo/ram.jpg",
     description: "DDR4 3600MHz RGB kit",
   },
   {
@@ -164,7 +164,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 159,
     category: "RAM",
     rating: 4.8,
-    img: "ram.jpg",
+    img: "/photo/ram.jpg",
     description: "DDR5 5600MHz performance RAM",
   },
   {
@@ -173,7 +173,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 59,
     category: "Storage",
     rating: 4.6,
-    img: "ssd.jpg",
+    img: "/photo/ssd.jpg",
     description: "3500MB/s read speed",
   },
   {
@@ -182,7 +182,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 129,
     category: "Storage",
     rating: 4.8,
-    img: "ssd.jpg",
+    img: "/photo/ssd.jpg",
     description: "7000MB/s read speed",
   },
 
@@ -193,7 +193,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 25,
     category: "Keyboard",
     rating: 4.3,
-    img: "switch.jpg",
+    img: "/photo/switch.jpg",
     description: "Pack of 35 hot-swap switches",
   },
   {
@@ -202,7 +202,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 49,
     category: "Controller",
     rating: 4.5,
-    img: "download3.avif",
+    img: "/photo/download3.avif",
     description: "PC + console compatible",
   },
   {
@@ -211,7 +211,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 89,
     category: "Streaming",
     rating: 4.7,
-    img: "headphone1.avif",
+    img: "/photo/headphone1.avif",
     description: "Studio quality + noise filter",
   },
   {
@@ -220,7 +220,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 59,
     category: "Streaming",
     rating: 4.4,
-    img: "webcan.jpg",
+    img: "/photo/webcam.jpg",
     description: "Full HD with autofocus",
   },
   {
@@ -229,7 +229,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 19,
     category: "Cooling",
     rating: 4.6,
-    img: "Dan.jpg",
+    img: "/photo/Fan.jpg",
     description: "Ultra-quiet + RGB",
   },
   {
@@ -238,7 +238,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 119,
     category: "Cooling",
     rating: 4.8,
-    img: "cooling.webp",
+    img: "/photo/cooling.webp",
     description: "240mm ARGB liquid cooler",
   },
   {
@@ -247,7 +247,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 99,
     category: "Case",
     rating: 4.6,
-    img: "case.webp",
+    img: "/photo/case.webp",
     description: "Glass side panel + RGB fans",
   },
   {
@@ -274,7 +274,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 39,
     category: "Keyboard",
     rating: 4.4,
-    img: "download2.avif",
+    img: "/photo/download2.avif",
     description: "60% compact mechanical keyboard",
   },
 
@@ -348,7 +348,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 18,
     category: "Accessories",
     rating: 4.3,
-    img: "GPU.jpg",
+    img: "/photo/GPU.jpg",
     description: "Prevents GPU sag",
   },
   {
@@ -357,7 +357,7 @@ import React, { createContext, useState ,useContext} from 'react'
     price: 45,
     category: "Accessories",
     rating: 4.4,
-    img: "ssd.jpg",
+    img: "/photo/ssd.jpg",
     description: "Holds 36 game discs",
   },
   {
@@ -370,13 +370,13 @@ import React, { createContext, useState ,useContext} from 'react'
     description: "RGB + deep bass",
   },
 
-  
+
 ];
 
 
 const ProductList = ({children}) => {
     const [data,setData] = useState([])
-    
+
    return (
    <contextApi.Provider value={{data,setData,gamingProducts}}>
 
@@ -391,6 +391,6 @@ export default ProductList
 
 
 export function Helper(){
-    
+
     return useContext(contextApi)
 }
